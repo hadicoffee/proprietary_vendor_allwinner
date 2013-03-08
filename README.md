@@ -1,4 +1,4 @@
 proprietary_vendor_allwinner
 ============================
 
-CWM Recovery Builder Fix
+CyanogenMod Vendor Tree allwinner a10
