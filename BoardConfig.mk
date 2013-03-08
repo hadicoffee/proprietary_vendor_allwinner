@@ -1,6 +1,4 @@
 USE_CAMERA_STUB := false
-HAVE_HTC_AUDIO_DRIVER := true
-BOARD_USES_GENERIC_AUDIO := true
 
 # inherit from the proprietary version
 -include vendor/allwinner/a10/BoardConfigVendor.mk
