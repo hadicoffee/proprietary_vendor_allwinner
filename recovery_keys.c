@@ -29,9 +29,9 @@ case KEY_POWER:
 case 158:
 case KEY_1:
 case KEY_ESC:
-                    return GO_BACK;
+                return GO_BACK;
         }
     }
 
-    return NO_ACTION;
+                return NO_ACTION;
 }
