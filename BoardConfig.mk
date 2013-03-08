@@ -1,7 +1,7 @@
 USE_CAMERA_STUB := false
 
 # inherit from the proprietary version
--include vendor/allwinner/a10/BoardConfigVendor.mk
+include vendor/allwinner/a10/BoardConfigVendor.mk
 
 TARGET_NO_BOOTLOADER := true
 TARGET_NO_RADIOIMAGE := true
