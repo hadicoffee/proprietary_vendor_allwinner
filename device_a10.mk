@@ -22,4 +22,4 @@ $(call inherit-product, build/target/product/full.mk)
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_a10
 PRODUCT_DEVICE := a10
-PRODUCT_COPY_FILES += $(LOCAL_PATH)/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh
+PRODUCT_COPY_FILES += vendor/allwinner/a10/postrecoveryboot.sh:recovery/root/sbin/postrecoveryboot.sh
