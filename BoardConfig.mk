@@ -25,7 +25,10 @@ BOARD_FLASH_BLOCK_SIZE := 4096
 
 BOARD_UMS_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun/file"
 BOARD_UMS_2ND_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun1/file"
-#TARGET_RECOVERY_INITRC := recovery_init.rc
+BOARD_UMS_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun/file"
+BOARD_UMS_2ND_LUNFILE := "/sys/class/android_usb/android0/f_mass_storage/lun1/file"
+BOARD_CUSTOM_RECOVERY_KEYMAPPING := vendor/allwinner/a10/recovery_keys.c
+# TARGET_RECOVERY_INITRC := vendor/allwinner/a10/recovery_init.rc
 
 TARGET_PREBUILT_KERNEL := device/allwinner/a10/kernel
 
